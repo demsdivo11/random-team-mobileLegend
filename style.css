@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#input-container, #teams-container, #result-container {
+    margin-bottom: 20px;
+}
+
+.team {
+    margin-bottom: 10px;
+}
+
+.role-input {
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#download-btn {
+    margin-top: 20px;
+}

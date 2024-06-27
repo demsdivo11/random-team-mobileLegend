@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends Role Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mobile Legends Role Picker</h1>
+    <div id="input-container">
+        <label for="team-number">Number of Teams:</label>
+        <input type="number" id="team-number" min="2" value="2">
+        <button onclick="addTeams()">Add Teams</button>
+    </div>
+    <div id="teams-container"></div>
+    <button id="randomize-btn" onclick="randomizeRoles()">Randomize Roles</button>
+    <div id="result-container"></div>
+    <button id="download-btn" onclick="downloadPDF()" disabled>Download PDF</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
